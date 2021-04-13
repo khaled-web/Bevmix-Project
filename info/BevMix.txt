@@ -1,0 +1,59 @@
+navBar
+*******
+nav.nabBar> 
+
+	div.nav-header>
+
+		div.navBar-links> ul.nav-links> 4*li.a.nav-link 
+		div.navBar-icons> ul.nav-icons> 5*a.nav-icon>icon
+
+
+...........................................................................................
+
+hero
+*****
+header.hero>
+
+	div.hero-center.clearfix>
+
+		article.hero-info>
+		
+			(div.section-title> 3*h2) + p.hero-text + a.btn-01 + a.btn-02
+
+
+		article.hero-inventory.clearfix>
+		
+			3*(div.hero-products>img.hero-products-img + h3.hero-products-title + a.btn-02) + 
+
+			  (div.hero-products-direction> 2*span>icon)
+
+
+			 
+...........................................................................................
+
+search
+*******
+
+section.section.targets> 
+
+	div.section-center.targets-center>
+
+		div.targets-form>
+
+			input.form-control + span> icon + (div.targets-links> ul.target-links> 4* li>a.target-link)
+
+...........................................................................................
+		
+selection
+*********
+
+	div.targets-selection>
+
+		div.targets-partition> 5* (div.single-selection> select.targets-option> option) + (span> icon)
+
+		div.targets-sort> (div.targets-sort-p) + (div.targets-sort-option>select.targets-option> option)
+
+			
+				
+			
+
